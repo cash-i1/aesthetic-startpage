@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Source+Code+Pro);
 :root {
   --background-color: #ff4081;
-  --link-hover: rgb(19, 217, 252);
+  --link-hover: #ff5381;
   --link-heading: #ff4081;
   --background-glow: 0px 0px 30px #ff4081;
   --page-background-color: rgb(5, 5, 5);
@@ -98,11 +98,14 @@ a:hover {
   margin-bottom: 2px;
   font-weight: 500;
 }
+a {
+}
 
 a {
   padding: 0px;
   text-decoration: none;
   color: aliceblue;
+  transition: color 0.3s ease;
 }
 form {
   font-size: 2.5rem;
@@ -143,7 +146,7 @@ form input:focus {
   position: fixed;
   top: 0;
   right: 0;
-  opacity: 0.95;
+  opacity: 0.2;
 }
 
 .navbar-container input[type="checkbox"],
