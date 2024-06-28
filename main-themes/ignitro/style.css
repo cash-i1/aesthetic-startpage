@@ -1,11 +1,12 @@
 @import url(https://fonts.googleapis.com/css2?family=Source+Code+Pro);
 :root {
-  --background-color: aqua;
+  --background-color: #ff4081;
   --link-hover: rgb(19, 217, 252);
-  --link-heading: aqua;
-  --background-glow: 0px 0px 30px aqua;
+  --link-heading: #ff4081;
+  --background-glow: 0px 0px 30px #ff4081;
   --page-background-color: rgb(5, 5, 5);
 }
+
 * {
   padding: 0;
   margin: 0;
